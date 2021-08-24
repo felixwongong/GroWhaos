@@ -69,7 +69,7 @@ public class Dragger : MonoBehaviour
         rb.isKinematic = false;
         rb.AddForce((transform.forward + new Vector3(0, throwAngle, 0)) * curThrowStrength, ForceMode.Impulse);
         arrow.PointOut(0f);
-        //This is an comment
+        //This is an comment for commit
         isHolding = false;
     }
 
